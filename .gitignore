@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+
+# planck data is downloaded separately, see data/README.md
+data/*.fits
+
+# outputs of simulate.py, maps.py and the notebook
+results/
+cluster/logs/
+
+# copi's multipole vector code, not ours to redistribute
+mpd_decomp.py

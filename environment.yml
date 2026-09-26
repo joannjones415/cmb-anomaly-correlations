@@ -1,0 +1,13 @@
+name: cmb-anomalies
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - healpy
+  - namaster
+  - matplotlib
+  - pytest
+  - jupyterlab
+  - ipykernel
